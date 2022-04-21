@@ -190,7 +190,8 @@
                        </div>
                     @endforeach
                 </div>
-                <div class="row">
+                <div id="app" class="row">
+                    <template>
                     <div class="col-md-6 mx-auto">
                         <div class="form-group">
                             <select name="servant_id"class="form-control">
@@ -267,7 +268,8 @@
                             document.getElementById('add_sale').submit();">
                                 Valide</button>
                           </div>
-                    </div>
+                      </div>
+
                 </div>
             </div>
         </div>
